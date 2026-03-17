@@ -28,7 +28,7 @@
 <!--Intro start-->
 <h4>Bringing industrial precision from CNC machining to Web Development.</h4>
 
-- 🔭 I’m currently working on **Astro Framework, HTML, CSS, Luau,AutoCad,SolidWorks**
+- 🔭 I’m currently working on **Astro Framework, HTML, CSS, Luau, AutoCad, SolidWorks**
 
 - 🌱 I’m currently learning **React, TypeScript**
 
