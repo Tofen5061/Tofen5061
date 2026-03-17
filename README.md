@@ -26,13 +26,15 @@
 
 
 <!--Intro start-->
-- 🔭 I’m currently working on **Astro Framework, HTML, CSS, Luau**
+<h4>Bringing industrial precision from CNC machining to Web Development.</h4>
+
+- 🔭 I’m currently working on **Astro Framework, HTML, CSS, Luau,AutoCad,SolidWorks**
 
 - 🌱 I’m currently learning **React, TypeScript**
 
 - ☁️ I've keen interest in Front-End. So,I'm learning **Astro Starlight**
 
-- 💬 Ask me about **HTML, CSS, Astro**
+- 💬 Ask me about **HTML, CSS, Astro,AutoCad,SolidWorks**
 
 - 📫 Feel free to reach me out **richtofenmartinez200@gmail.com**
 
@@ -93,7 +95,7 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/kevin-martinez-310bb73a2/" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234979284-68c11d7f-1acc-4f0c-ac78-044e1037d7b0.png" alt="linkedin" height="50" width="50" /></a>
 <a href="https://tofen-youtube-page.vercel.app/about" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234982196-562aea17-5532-4550-8c08-1c7cb994a541.png" alt="YTblog" height="50" width="50" /></a>
-<a href="https://discordapp.com/users/itskevin_x" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234982627-019fd336-6248-453c-9b05-97c13fd1d207.png" alt="discord" height="50" width="50" /></a>
+<a href="https://discordapp.com/users/Tofen" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234982627-019fd336-6248-453c-9b05-97c13fd1d207.png" alt="discord" height="50" width="50" /></a>
   
 </p>
 
