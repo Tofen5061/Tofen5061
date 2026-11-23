@@ -11,7 +11,7 @@ From CNC machining to software, with the same precision. Based in Nicaragua.
 
 <sub><i>Determination carries success.</i></sub>
 
-[Portfolio](https://tofenportfolio.netlify.app/) &nbsp;·&nbsp; [YouTube](https://www.youtube.com/@itofen) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/kevin-martinez-310bb73a2/) &nbsp;·&nbsp; [Discord](https://discordapp.com/users/Tofen) &nbsp;·&nbsp; [Email](mailto:richtofenmartinez200@gmail.com)
+[Portfolio](https://tofenportfolio.netlify.app/)&nbsp;&nbsp; [YouTube](https://www.youtube.com/@itofen)&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/kevin-martinez-310bb73a2/)&nbsp;&nbsp; [Discord](https://discordapp.com/users/Tofen)&nbsp;&nbsp; [Email](mailto:richtofenmartinez200@gmail.com)
 
 </div>
 
