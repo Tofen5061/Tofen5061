@@ -1,107 +1,75 @@
-
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!--h1 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h1 style="display: inline-block">Hi 👋, I'm Tofen</h1></summary>
-  </ul>
-</div>
-
-
-<!--- snake -->
 <div align="center">
-  <img  src="https://www.pngall.com/wp-content/uploads/17/Undertale-Heart-Unique-Fantasy-Element-PNG.png"
-       alt="snake" width = 15% /></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+  <img src="assets/logo-light.svg" alt="Tofen" height="56">
+</picture>
+
+### I build apps and custom systems for small businesses.
+
+From CNC machining to software, with the same precision. Based in Nicaragua.
+
+<sub><i>Determination carries success.</i></sub>
+
+[Portfolio](https://tofenportfolio.netlify.app/)&nbsp;&nbsp; [YouTube](https://www.youtube.com/@itofen)&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/kevin-martinez-310bb73a2/)&nbsp;&nbsp; [Discord](https://discordapp.com/users/Tofen)&nbsp;&nbsp; [Email](mailto:richtofenmartinez200@gmail.com)
+
 </div>
 
+<br>
 
-<!--h2 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Determination carries Success</h2></summary>
-  </ul>
-</div>
+## What I've built
 
+**[Tofen ERP](https://tofenerp-landing.netlify.app)** · [Open the web app](https://tofenerp.netlify.app)
+<br>
+<sub>Management app for small businesses: appointments, credit and payments, finances, repairs with photos, PDF receipts, thermal printing and offline mode. In Spanish and English, on Android and web.</sub>
+<br>
+<sub>`Expo` `React Native` `TypeScript` `Supabase`</sub>
 
-<!--Intro start-->
-<h4>Bringing industrial precision from CNC machining to Web Development.</h4>
+**[CalculaNica](https://calculanica.netlify.app)**
+<br>
+<sub>Free labor calculators for Nicaragua: net salary (INSS + IR) and aguinaldo.</sub>
+<br>
+<sub>`Astro`</sub>
 
-- 🔭 I’m currently working on **Astro Framework, HTML, CSS, Luau, AutoCad, SolidWorks**
+**[Tofen on YouTube](https://tofen-youtube-page.vercel.app)**
+<br>
+<sub>The website for my YouTube channel, [@itofen](https://www.youtube.com/@itofen).</sub>
+<br>
+<sub>`Astro` `TypeScript`</sub>
 
-- 🌱 I’m currently learning **React, TypeScript**
+**Custom systems**
+<br>
+<sub>Private mobile and web tools built to fit how each client's business actually runs.</sub>
+<br>
+<sub>`React Native` `Expo` `React` `Supabase` `SQLite`</sub>
 
-- ☁️ I've keen interest in Front-End. So,I'm learning **Astro Starlight**
+<br>
 
-- 💬 Ask me about **HTML, CSS, Astro,AutoCad,SolidWorks**
+## Activity
 
-- 📫 Feel free to reach me out **richtofenmartinez200@gmail.com**
-
-- 🏠 Don't hesitate to drop me a **👋** on Discord –  [Tofen](https://discordapp.com/users/Tofen) my username!
-<!--Intro end-->
-
-
-
-<!--- stats & Trophy (start) -->
 <p align="center">
-  <!--- stats (start) -->
-<table align="center">
-<tr border="none">
-<td width="50%" align="center">
-  
-  <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=Tofen5061&theme=dark&show_icons=true&count_private=true" />
-  <br></br>
-  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Tofen5061&theme=dark&hide_border=false" /> 
-</td>
-
-<td width="50%" align="center">
-
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Tofen5061&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
-  
-  </td>
-</tr>
-</table>
-<!--- stats (end) -->
-
-
-</p>        
-<!--- stats (end) -->
-
-
-<!--h1 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Technologies That I Know👨🏻‍💻</h2></summary>
-  </ul>
-</div>
-<!--tech stack icons-->
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=astro,git,css,discord,figma,github,html,js,md,react,tailwind,ts,vscode,lua,kotlin,npm,vite&perline=14" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+    <img src="assets/activity-light.svg" alt="GitHub activity over the last 12 months" width="400">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+    <img src="assets/languages-light.svg" alt="Languages used across public and private projects" width="400">
+  </picture>
 </p>
 
+<br>
 
-<!-- Connect with me -->
-<!--h2 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h2 style="display: inline-block">Connect With Me🤝</h2></summary>
-  </ul>
-</div>
+## Stack
 
-<!--icons and links-->
-<p align="center">
-<a href="https://www.linkedin.com/in/kevin-martinez-310bb73a2/" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234979284-68c11d7f-1acc-4f0c-ac78-044e1037d7b0.png" alt="linkedin" height="50" width="50" /></a>
-<a href="https://tofen-youtube-page.vercel.app/about" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234982196-562aea17-5532-4550-8c08-1c7cb994a541.png" alt="YTblog" height="50" width="50" /></a>
-<a href="https://discordapp.com/users/Tofen" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234982627-019fd336-6248-453c-9b05-97c13fd1d207.png" alt="discord" height="50" width="50" /></a>
-  
-</p>
+**Mobile** &nbsp; `React Native` `Expo` `Expo Router` `TypeScript` `NativeWind`
 
+**Backend and data** &nbsp; `Supabase` `PostgreSQL` `SQLite`
 
+**Web** &nbsp; `React` `Astro` `Tailwind CSS` `JavaScript` `HTML` `CSS`
 
-<!--horizontal divider(gradiant)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+**Shipping** &nbsp; `EAS Build` `Android` `Netlify` `Vercel`
 
-Last Edited on: 17/03/2026
+**Video** &nbsp; `Remotion`
+
+**Engineering** &nbsp; `AutoCAD` `SolidWorks`
