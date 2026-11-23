@@ -1,7 +1,10 @@
 // Generates the profile charts (assets/*.svg) from public GitHub data. No dependencies.
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const LOGIN = 'Tofen5061';
+// Totals per language from private repos (no repo names). The Action cannot read private
+// repos, so refresh this locally with: SAVE_PRIVATE_LANGS=1 GITHUB_TOKEN=$(gh auth token) node scripts/generate-stats.mjs
+const PRIVATE_LANGS = 'data/private-languages.json';
 const TOKEN = process.env.GITHUB_TOKEN;
 if (!TOKEN) throw new Error('GITHUB_TOKEN is required');
 
@@ -26,8 +29,8 @@ const QUERY = `query($login: String!) {
     contributionsCollection {
       contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } }
     }
-    repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
-      nodes { languages(first: 12, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name } } } }
+    repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+      nodes { isPrivate languages(first: 12, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name } } } }
     }
   }
 }`;
@@ -69,11 +72,26 @@ function summarizeActivity(calendar) {
   return { total: calendar.totalContributions, active, longest, months };
 }
 
-function summarizeLanguages(repos) {
+async function collectLanguages(repos) {
   const sizes = new Map();
+  const hidden = new Map();
   for (const repo of repos) {
-    for (const { size, node } of repo.languages.edges) sizes.set(node.name, (sizes.get(node.name) ?? 0) + size);
+    const target = repo.isPrivate ? hidden : sizes;
+    for (const { size, node } of repo.languages.edges) target.set(node.name, (target.get(node.name) ?? 0) + size);
   }
+  let privateTotals;
+  if (process.env.SAVE_PRIVATE_LANGS) {
+    privateTotals = Object.fromEntries([...hidden].sort((a, b) => b[1] - a[1]));
+    await mkdir('data', { recursive: true });
+    await writeFile(PRIVATE_LANGS, `${JSON.stringify(privateTotals, null, 2)}\n`);
+  } else {
+    privateTotals = JSON.parse(await readFile(PRIVATE_LANGS, 'utf8'));
+  }
+  for (const [name, size] of Object.entries(privateTotals)) sizes.set(name, (sizes.get(name) ?? 0) + size);
+  return sizes;
+}
+
+function summarizeLanguages(sizes) {
   const total = [...sizes.values()].reduce((a, b) => a + b, 0) || 1;
   const sorted = [...sizes].sort((a, b) => b[1] - a[1]);
   const top = sorted.slice(0, 4).map(([name, size]) => ({ name, pct: (size / total) * 100 }));
@@ -164,17 +182,17 @@ function languagesSvg(langs, t) {
 
   return frame(
     t,
-    'Languages in public repositories',
+    'Languages across public and private projects',
     langs.map((l) => `${l.name} ${l.pct.toFixed(1)}%`).join(', '),
     'LANGUAGES',
-    'Public repos',
+    'All projects',
     clip + rows,
   );
 }
 
 const user = await fetchData();
 const activity = summarizeActivity(user.contributionsCollection.contributionCalendar);
-const languages = summarizeLanguages(user.repositories.nodes);
+const languages = summarizeLanguages(await collectLanguages(user.repositories.nodes));
 
 await mkdir('assets', { recursive: true });
 for (const [name, theme] of Object.entries(THEMES)) {

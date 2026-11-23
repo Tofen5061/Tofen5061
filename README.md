@@ -39,7 +39,9 @@ From CNC machining to software, with the same precision. Based in Nicaragua.
 
 **Custom systems**
 <br>
-<sub>Private tools built to fit how each client's business actually runs.</sub>
+<sub>Private mobile and web tools built to fit how each client's business actually runs.</sub>
+<br>
+<sub>`React Native` `Expo` `React` `Supabase` `SQLite`</sub>
 
 <br>
 
@@ -52,7 +54,7 @@ From CNC machining to software, with the same precision. Based in Nicaragua.
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-    <img src="assets/languages-light.svg" alt="Languages used in public repositories" width="400">
+    <img src="assets/languages-light.svg" alt="Languages used across public and private projects" width="400">
   </picture>
 </p>
 
@@ -60,10 +62,14 @@ From CNC machining to software, with the same precision. Based in Nicaragua.
 
 ## Stack
 
-**Apps** &nbsp; `React Native` `Expo` `TypeScript`
+**Mobile** &nbsp; `React Native` `Expo` `Expo Router` `TypeScript` `NativeWind`
 
-**Backend** &nbsp; `Supabase`
+**Backend and data** &nbsp; `Supabase` `PostgreSQL` `SQLite`
 
-**Web** &nbsp; `Astro` `JavaScript` `HTML` `CSS`
+**Web** &nbsp; `React` `Astro` `Tailwind CSS` `JavaScript` `HTML` `CSS`
+
+**Shipping** &nbsp; `EAS Build` `Android` `Netlify` `Vercel`
+
+**Video** &nbsp; `Remotion`
 
 **Engineering** &nbsp; `AutoCAD` `SolidWorks`
