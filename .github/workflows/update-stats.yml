@@ -1,0 +1,42 @@
+# Redraws the profile charts every Monday from public GitHub data and commits them if they changed.
+name: Update profile charts
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/generate-stats.mjs
+      - .github/workflows/update-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-charts-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate charts
+        run: node scripts/generate-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Commit if changed
+        run: |
+          git add assets
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update profile charts"
+          git push
