@@ -25,7 +25,7 @@ const BRANDS = {
   'React Native': ['react', '#61DAFB'], React: ['react', '#61DAFB'], Expo: ['expo', '#000020'],
   TypeScript: ['typescript', '#3178C6'], Android: ['android', '#34A853'], Supabase: ['supabase', '#3FCF8E'],
   PostgreSQL: ['postgresql', '#4169E1'], SQLite: ['sqlite', '#003B57'], Astro: ['astro', '#BC52EE'],
-  'Tailwind CSS': ['tailwindcss', '#06B6D4'], JavaScript: ['javascript', '#F7DF1E'], HTML: ['html5', '#E34F26'],
+  'Tailwind CSS': ['tailwindcss', '#06B6D4'], Tailwind: ['tailwindcss', '#06B6D4'], JavaScript: ['javascript', '#F7DF1E'], HTML: ['html5', '#E34F26'],
   CSS: ['css3', '#1572B6'], Netlify: ['netlify', '#00C7B7'], Vercel: ['vercel', '#000000'],
   AutoCAD: ['autodesk', '#0696D7'], SolidWorks: ['dassaultsystemes', '#005386'],
   YouTube: ['youtube', '#FF0000'], LinkedIn: ['linkedin', '#0A66C2'], Discord: ['discord', '#5865F2'], Email: ['gmail', '#EA4335'],
@@ -60,14 +60,14 @@ const PROJECTS = [
   {
     file: 'custom-systems', icon: 'blocks', title: 'Custom systems', meta: 'Mobile · Web', status: 'Private',
     lines: ['Tools built to fit how each client’s', 'business actually runs.'],
-    tech: ['React Native', 'Expo', 'React', 'Supabase', 'SQLite'],
+    tech: ['React Native', 'React', 'Supabase', 'SQLite'],
   },
 ];
 
 const STACK = [
   { file: 'mobile', label: 'MOBILE', items: ['React Native', 'Expo', 'TypeScript', 'NativeWind', 'Android'] },
   { file: 'backend', label: 'BACKEND AND DATA', items: ['Supabase', 'PostgreSQL', 'SQLite'] },
-  { file: 'web', label: 'WEB', items: ['React', 'Astro', 'Tailwind CSS', 'JavaScript', 'HTML', 'CSS'] },
+  { file: 'web', label: 'WEB', items: ['React', 'Astro', 'Tailwind', 'JavaScript', 'HTML', 'CSS'] },
   { file: 'more', label: 'SHIPPING, VIDEO AND CAD', items: ['Netlify', 'Vercel', 'Remotion', 'AutoCAD', 'SolidWorks'] },
 ];
 
@@ -147,11 +147,11 @@ async function chipRow(items, x, y, maxX, t) {
   let cursor = x;
   const parts = [];
   for (const name of items) {
-    const w = 8 + 12 + 6 + textWidth(name, 11) + 8;
+    const w = 7 + 12 + 5 + textWidth(name, 11) + 7;
     if (cursor + w > maxX) break;
     parts.push(`<rect x="${cursor.toFixed(1)}" y="${y}" width="${w.toFixed(1)}" height="24" rx="7" fill="${t.tile}" stroke="${t.border}"/>
-${await logo(name, cursor + 8, y + 6, 12, t)}
-<text x="${(cursor + 26).toFixed(1)}" y="${y + 16}" font-size="11" font-weight="700" fill="${t.text}">${esc(name)}</text>`);
+${await logo(name, cursor + 7, y + 6, 12, t)}
+<text x="${(cursor + 24).toFixed(1)}" y="${y + 16}" font-size="11" font-weight="700" fill="${t.text}">${esc(name)}</text>`);
     cursor += w + 6;
   }
   return parts.join('\n');
@@ -184,7 +184,7 @@ async function stackCard(group, t) {
     const cx = P + slot * i + slot / 2;
     tiles.push(`<rect x="${(cx - 22).toFixed(1)}" y="50" width="44" height="44" rx="11" fill="${t.tile}" stroke="${t.border}"/>
 ${await logo(name, cx - 12, 60, 24, t)}
-<text x="${cx.toFixed(1)}" y="114" font-size="11" font-weight="700" fill="${t.muted}" text-anchor="middle">${esc(name)}</text>`);
+<text x="${cx.toFixed(1)}" y="114" font-size="10.5" font-weight="700" fill="${t.muted}" text-anchor="middle">${esc(name)}</text>`);
   }
   const body = `<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="14" fill="${t.card}" stroke="${t.border}"/>
 <text x="${P}" y="32" font-size="11" font-weight="800" fill="${t.muted}" letter-spacing="1.2">${esc(group.label)}</text>

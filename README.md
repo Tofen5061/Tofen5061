@@ -61,6 +61,6 @@ From CNC machining to software, with the same precision. Based in Nicaragua.
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/mobile-dark.svg"><img src="assets/stack/mobile-light.svg" alt="Mobile: React Native, Expo, TypeScript, NativeWind, Android" width="400"></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/backend-dark.svg"><img src="assets/stack/backend-light.svg" alt="Backend and data: Supabase, PostgreSQL, SQLite" width="400"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/web-dark.svg"><img src="assets/stack/web-light.svg" alt="Web: React, Astro, Tailwind CSS, JavaScript, HTML, CSS" width="400"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/web-dark.svg"><img src="assets/stack/web-light.svg" alt="Web: React, Astro, Tailwind, JavaScript, HTML, CSS" width="400"></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/more-dark.svg"><img src="assets/stack/more-light.svg" alt="Shipping, video and CAD: Netlify, Vercel, Remotion, AutoCAD, SolidWorks" width="400"></picture>
 </p>
