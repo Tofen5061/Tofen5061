@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="113" height="36" viewBox="0 0 113 36" role="img" aria-label="Portfolio">
+<title>Portfolio</title>
+<g font-family="Nunito,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif">
+<rect x=".5" y=".5" width="112" height="35" rx="10" fill="#FFFFFF" stroke="#E3E7EE"/>
+<g transform="translate(14 10) scale(0.6666666666666666)" fill="none" stroke="#FE853A" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+  <path d="M2 12h20" /></g>
+<text x="38" y="23" font-size="13" font-weight="700" fill="#0E1016">Portfolio</text>
+</g>
+</svg>

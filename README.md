@@ -9,43 +9,39 @@
 
 From CNC machining to software, with the same precision. Based in Nicaragua.
 
-<sub><i>Determination carries success.</i></sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-dark.svg">
+  <img src="assets/tagline-light.svg" alt="Mobile apps with React Native and Expo · Backends and data on Supabase · Fast websites with Astro · Made in Nicaragua" width="460">
+</picture>
 
-[Portfolio](https://tofenportfolio.netlify.app/)&nbsp;&nbsp; [YouTube](https://www.youtube.com/@itofen)&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/kevin-martinez-310bb73a2/)&nbsp;&nbsp; [Discord](https://discordapp.com/users/Tofen)&nbsp;&nbsp; [Email](mailto:richtofenmartinez200@gmail.com)
+<br><br>
+
+<a href="https://tofenportfolio.netlify.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg"><img src="assets/buttons/portfolio-light.svg" alt="Portfolio" height="36"></picture></a>
+<a href="https://www.youtube.com/@itofen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/youtube-dark.svg"><img src="assets/buttons/youtube-light.svg" alt="YouTube" height="36"></picture></a>
+<a href="https://www.linkedin.com/in/kevin-martinez-310bb73a2/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img src="assets/buttons/linkedin-light.svg" alt="LinkedIn" height="36"></picture></a>
+<a href="https://discordapp.com/users/Tofen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/discord-dark.svg"><img src="assets/buttons/discord-light.svg" alt="Discord" height="36"></picture></a>
+<a href="mailto:richtofenmartinez200@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img src="assets/buttons/email-light.svg" alt="Email" height="36"></picture></a>
+
+<sub><i>Determination carries success.</i></sub>
 
 </div>
 
 <br>
 
-## What I've built
+## <img src="assets/icons/layers.svg" height="22" alt=""> What I've built
 
-**[Tofen ERP](https://tofenerp-landing.netlify.app)** · [Open the web app](https://tofenerp.netlify.app)
-<br>
-<sub>Management app for small businesses: appointments, credit and payments, finances, repairs with photos, PDF receipts, thermal printing and offline mode. In Spanish and English, on Android and web.</sub>
-<br>
-<sub>`Expo` `React Native` `TypeScript` `Supabase`</sub>
+<p align="center">
+  <a href="https://tofenerp-landing.netlify.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/tofen-erp-dark.svg"><img src="assets/projects/tofen-erp-light.svg" alt="Tofen ERP: business app for appointments, credit and payments, finances, repairs, PDF receipts, thermal printing and offline mode" width="400"></picture></a>
+  <a href="https://calculanica.netlify.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/calculanica-dark.svg"><img src="assets/projects/calculanica-light.svg" alt="CalculaNica: free labor calculators for Nicaragua" width="400"></picture></a>
+  <a href="https://tofen-youtube-page.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/youtube-site-dark.svg"><img src="assets/projects/youtube-site-light.svg" alt="Tofen on YouTube: the website for my YouTube channel" width="400"></picture></a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/custom-systems-dark.svg"><img src="assets/projects/custom-systems-light.svg" alt="Custom systems: private tools built for each client" width="400"></picture>
+</p>
 
-**[CalculaNica](https://calculanica.netlify.app)**
-<br>
-<sub>Free labor calculators for Nicaragua: net salary (INSS + IR) and aguinaldo.</sub>
-<br>
-<sub>`Astro`</sub>
-
-**[Tofen on YouTube](https://tofen-youtube-page.vercel.app)**
-<br>
-<sub>The website for my YouTube channel, [@itofen](https://www.youtube.com/@itofen).</sub>
-<br>
-<sub>`Astro` `TypeScript`</sub>
-
-**Custom systems**
-<br>
-<sub>Private mobile and web tools built to fit how each client's business actually runs.</sub>
-<br>
-<sub>`React Native` `Expo` `React` `Supabase` `SQLite`</sub>
+<p align="center"><sub>Try Tofen ERP in your browser: <a href="https://tofenerp.netlify.app">tofenerp.netlify.app</a></sub></p>
 
 <br>
 
-## Activity
+## <img src="assets/icons/activity.svg" height="22" alt=""> Activity
 
 <p align="center">
   <picture>
@@ -60,16 +56,11 @@ From CNC machining to software, with the same precision. Based in Nicaragua.
 
 <br>
 
-## Stack
+## <img src="assets/icons/blocks.svg" height="22" alt=""> Stack
 
-**Mobile** &nbsp; `React Native` `Expo` `Expo Router` `TypeScript` `NativeWind`
-
-**Backend and data** &nbsp; `Supabase` `PostgreSQL` `SQLite`
-
-**Web** &nbsp; `React` `Astro` `Tailwind CSS` `JavaScript` `HTML` `CSS`
-
-**Shipping** &nbsp; `EAS Build` `Android` `Netlify` `Vercel`
-
-**Video** &nbsp; `Remotion`
-
-**Engineering** &nbsp; `AutoCAD` `SolidWorks`
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/mobile-dark.svg"><img src="assets/stack/mobile-light.svg" alt="Mobile: React Native, Expo, TypeScript, NativeWind, Android" width="400"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/backend-dark.svg"><img src="assets/stack/backend-light.svg" alt="Backend and data: Supabase, PostgreSQL, SQLite" width="400"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/web-dark.svg"><img src="assets/stack/web-light.svg" alt="Web: React, Astro, Tailwind CSS, JavaScript, HTML, CSS" width="400"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/more-dark.svg"><img src="assets/stack/more-light.svg" alt="Shipping, video and CAD: Netlify, Vercel, Remotion, AutoCAD, SolidWorks" width="400"></picture>
+</p>
