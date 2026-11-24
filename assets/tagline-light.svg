@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="34" viewBox="0 0 460 34" role="img" aria-label="Mobile apps with React Native and Expo · Backends and data on Supabase · Fast websites with Astro · Made in Nicaragua">
+<title>Mobile apps with React Native and Expo · Backends and data on Supabase · Fast websites with Astro · Made in Nicaragua</title><style>
+.l{opacity:0;animation:cycle 12s infinite}
+@keyframes cycle{0%{opacity:0;transform:translateY(6px)}3%{opacity:1;transform:translateY(0)}22.0%{opacity:1;transform:translateY(0)}25.0%{opacity:0;transform:translateY(-6px)}100%{opacity:0}}
+.l0{animation-delay:0s}.l1{animation-delay:3s}.l2{animation-delay:6s}.l3{animation-delay:9s}
+@media (prefers-reduced-motion:reduce){.l{animation:none}.l0{opacity:1}}
+</style>
+<g font-family="Nunito,'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif">
+<g class="l l0"><circle cx="58.5" cy="17" r="4" fill="#FE853A"/><text x="230" y="23" font-size="17" font-weight="700" fill="#0E1016" text-anchor="middle">Mobile apps with React Native and Expo</text></g>
+<g class="l l1"><circle cx="89.1" cy="17" r="4" fill="#FE853A"/><text x="230" y="23" font-size="17" font-weight="700" fill="#0E1016" text-anchor="middle">Backends and data on Supabase</text></g>
+<g class="l l2"><circle cx="114.9" cy="17" r="4" fill="#FE853A"/><text x="230" y="23" font-size="17" font-weight="700" fill="#0E1016" text-anchor="middle">Fast websites with Astro</text></g>
+<g class="l l3"><circle cx="145.5" cy="17" r="4" fill="#FE853A"/><text x="230" y="23" font-size="17" font-weight="700" fill="#0E1016" text-anchor="middle">Made in Nicaragua</text></g>
+</g>
+</svg>
